@@ -53,7 +53,7 @@ function Scheduler() {
             <AppBar className={classes.component}>
             <Toolbar className={classes.container}>
                
-                <Link>{button}</Link>
+                <Link to="/" >{button}</Link>
             </Toolbar>
         </AppBar>
         <div className='hero' style={{margin:'100px'}}>
